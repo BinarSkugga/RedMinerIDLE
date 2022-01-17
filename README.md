@@ -1,4 +1,5 @@
 # RedMinerIDLE
+### This works for TeamRedMiner using an AMD graphics card, it can be edited to work with other miners with a bit of Python
 ## Why using this script ?
 The Windows Task Scheduler does a very poor job at doing precision scheduling. Its also both confusing and honestly kinda trash (specially compared to linux services and such). This script will run and trigger your mining software automatically but will also properly kill it<sup>1</sup>. Its simple, reliable and configurable to your specific needs with a bit of python.
 
