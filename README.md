@@ -5,7 +5,7 @@ The Windows Task Scheduler does a very poor job at doing precision scheduling. I
 <sup>1</sup> The teamredminer program do not listen to the STDIN, meaning its impossible to send the `q` command to it. Because of this, any overclocking setting set as argument on the `teamredminer.exe` program won't be properly reverted. 
 
 ## Setting the windows task
-Create a Task in your Task Scheduler on Windows. For the general setup, make sure to set the following:
+If you don't want to start the program and/or see the console when its running, you can use the vanilla Task Scheduler to start it when you open your computer (its reliable for this). Create a Task in your Task Scheduler on Windows. For the general setup, make sure to set the following:
 
 * Run only when user is logged in
 * Run with highest privileges
