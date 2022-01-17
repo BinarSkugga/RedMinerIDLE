@@ -17,6 +17,7 @@ Finally for the action, use the start a program command. For the script, using P
 ## Configuring the script
 You have to set a couple of settings for the miner to properly work:
 
+* **On line 27**, you can change how many seconds of idleness is needed for the miner to start, defaults to 5 minutes (300 seconds).
 * **On line 52**, you have to set your pool's url and port. 
 * **On line 53**, you can set your prefered configuration for ethash.
 * **On line 54**, you have to set you address and worker name.
