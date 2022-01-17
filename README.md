@@ -23,3 +23,6 @@ You have to set a couple of settings for the miner to properly work:
 * **On line 54**, you have to set you address and worker name.
 
 __Note__: This is only the basic configuration, read the [teamredminer github](https://github.com/todxx/teamredminer) for more in-depth settings.
+
+## Look at the miner's logs
+The STDOUT and STDERR of the miner and the script are sent to the `output.log` file in the same folder. You can watch it in realtime using `Get-Content output.log -wait` inside the folder.
